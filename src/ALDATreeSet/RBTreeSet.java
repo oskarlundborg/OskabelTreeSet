@@ -27,14 +27,28 @@ public class RBTreeSet<T extends Comparable<T>> implements Set<T> {
     }
 
     private Node<T> getParent(Node<T> node){
-        return root;
+        return root; //Temp
     }
 
     private boolean isLeftChild(Node<T> node){
-        return false;
+        return false; //Temp
     }
 
+    private void fixColorsAfterAdd(Node<T> node){
 
+    }
+
+    private void fixColorsAfterRemove(Node<T> node){
+
+    }
+
+    private Node<T> findSmallest(Node<T> node){
+        return root; //Temp
+    }
+
+    private Node<T> findLargest(Node<T> node){
+        return root; //Temp
+    }
 
 
     //Set metoder
